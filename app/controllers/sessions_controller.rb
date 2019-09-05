@@ -20,4 +20,4 @@ class SessionsController < ApplicationController
     session.date :user_id
     redirect_to index_session_path
   end
-  
+end
